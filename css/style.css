@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@100&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    font-family: 'Lexend Deca', sans-serif; 
+   display: flex;
+    
+}
+p {
+    font-family: 'Big Shoulders Display', cursive;
+    Font-size: 15px;
+    margin-top: 30px;
+}
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin-top: 30px;
+}
+.btn1 {
+    color:hsl(31, 77%, 52%) ;
+}
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+.btn1:hover {
+    background-color:hsl(31, 77%, 52%) ;
+    cursor:pointer ;
+    border-color: white;
+    color: white;
+}
+.btn2:hover {
+    background-color:hsl(184, 100%, 22%) ;
+    cursor:pointer ;
+    border-color: white;
+    color: white;
+}
+.btn3:hover {
+    background-color:hsl(179, 100%, 13%) ;
+    cursor:pointer ;
+    border-color: white;
+    color: white;
+}
+.btn1 {
+    margin-top: 100px;
+    padding: 1rem;
+    border-radius: 2em;
+    border-color: white;
+    Font-size: 15px;
+    margin-right: 5rem;
+    
+}
+.btn2 {
+    margin-top: 77px;
+    padding: 1rem;
+    border-radius: 2em;
+    border-color: white; 
+    Font-size: 15px;
+    margin-right: 5rem; 
+}
+.btn3{
+    margin-top: 100px;
+    padding: 1rem;
+    border-radius: 2em;
+    border-color: white; 
+    Font-size: 15px;
+    margin-right: 5rem; 
+}
+.box { 
+     width: 300px;
+     height: 450px;
+     display: flex;
+     flex-direction: column;
+     padding: 2rem;
+     color: hsla(0, 0%, 100%, 0.75);
+       
+}
+.box:nth-child(1) {
+  background:hsl(31, 77%, 52%) ;
+}
+.box:nth-child(2) {
+  background:  hsl(184, 100%, 22%);   
+}
+.box:nth-child(3) {
+background:  hsl(179, 100%, 13%);
+}
+.attribution { font-size: 20px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media screen and (max-width: 550px){
+       .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+       }
+       .card {
+        height: 10%;
+       }
+    
+}
